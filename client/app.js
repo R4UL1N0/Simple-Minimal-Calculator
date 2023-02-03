@@ -107,6 +107,10 @@ function handleClear() {
     firstNumber.innerHTML = "0"
     operator.innerHTML = ''
     secondNumber.innerHTML = ''
+    firstEquation = true
+    lastEquations = []
+    lastEquationsEl.innerHTML = ''
+
 }
 
 function handleBack() {
